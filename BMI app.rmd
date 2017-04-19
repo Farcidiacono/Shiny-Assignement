@@ -1,0 +1,41 @@
+Also accessible at http://rpubs.com/Francescarcidiacono/myBMIapp
+
+---
+title: "Calculate your BMI App"
+author: "Francesca Arcidiacono"
+date: "19 aprile 2017"
+output: ioslides_presentation
+---
+
+## About this assignement
+
+This peer assessed assignment has two parts. First, you will create a Shiny application and deploy it on Rstudio's servers. Second, you will use Slidify or Rstudio Presenter to prepare a reproducible pitch presentation about your application.
+
+
+## The topic I have chosen: What and Why
+
+###What
+- Calculation of BMI
+- Once you define your weight (in Kg) and your height (in cm), the app will automatically calculate your BMI and you can discover if you are underweight, normal, overweight or obese.
+
+###Why
+- It allows an useful use of many Shiny components without an huge workload (ex. slider, checkboxinput and renderPlot)
+- It is easy to understand for any user (as required by the professors) and linking ui.R and server.R codes is self-evident, no need of major explanations
+
+## What we can render (hidden code)
+renderPlot: which allows you to visualize your BMI in a graph starting from this basic one (see the app)
+
+```{r, echo=FALSE}
+x <- 0-200
+plot(x, xlab="Weight (kg)", ylab="Height (cm)")
+```
+
+## Links for the app and my github repository with ui.R and server.R
+
+You can find the app at: https://francescarcidiacono.shinyapps.io/MyDesApp/
+
+
+You can access the codes at: https://github.com/Farcidiacono/Shiny-Assignement/tree/master
+
+Eat healthy, do sport and enjoy your life :-)
+Thank you!
